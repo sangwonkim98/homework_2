@@ -1,0 +1,23 @@
+# Data paths
+data_dir: "data"
+train_file: "train.txt"
+val_file: "val.txt"
+test_file: "test.txt"
+log_dir: "log"
+checkpoint_name: "checkpoint.pth"
+
+
+# Model Parameters
+model_type: "LSTM" # RNN, GRU, LSTM
+hidden_size: 500
+embedding_dim: 300
+teacher_forcing_ratio: 0.5
+
+# Training Parameters
+batch_size: 2048
+lr: 0.001
+epochs: 30
+print_every: 1 # Print loss every X epochs
+
+# Decoding
+searching_method: "greedy"
