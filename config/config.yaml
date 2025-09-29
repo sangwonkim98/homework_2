@@ -14,9 +14,9 @@ embedding_dim: 300
 teacher_forcing_ratio: 0.5
 
 # Training Parameters
-batch_size: 2048
+batch_size: 512
 lr: 0.001
-epochs: 30
+epochs: 10
 print_every: 1 # Print loss every X epochs
 
 # Decoding

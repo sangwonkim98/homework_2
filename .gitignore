@@ -1,1 +1,54 @@
+# ===================================================================
+# Python & Virtual Environments
+# ===================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+.env
+.venv
+venv/
+
+
+# ===================================================================
+# Experiment Artifacts (Logs, Models, Vocabs)
+# ===================================================================
+# Log files and directories
+logs/
+*.log
+
+# Trained model weights and checkpoints
+*.pth
+*.pt
+
+# Saved data objects like vocabularies
+*.pkl
+
+
+# ===================================================================
+# Large Files & Datasets
+# ===================================================================
+# Pre-trained models or large binaries
+*.bin
+
+# Data directory
+# 참고: data/ 안의 txt 파일 용량이 매우 작다면 이 줄을 지우거나
+# #data/ 처럼 주석 처리해서 Git으로 관리할 수도 있음.
+data/
+
+
+# ===================================================================
+# OS & IDE specific
+# ===================================================================
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode, JetBrains IDEs
+.vscode/
+.idea/
